@@ -16,6 +16,7 @@
 		CE0DF8242A37F99A00D44A74 /* Swift_quizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DF8232A37F99A00D44A74 /* Swift_quizTests.swift */; };
 		CE0DF82E2A37F99A00D44A74 /* Swift_quizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DF82D2A37F99A00D44A74 /* Swift_quizUITests.swift */; };
 		CE0DF8302A37F99A00D44A74 /* Swift_quizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DF82F2A37F99A00D44A74 /* Swift_quizUITestsLaunchTests.swift */; };
+		CEF60A512A3850FE00922B01 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF60A502A3850FE00922B01 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CE0DF8292A37F99A00D44A74 /* Swift_quizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_quizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0DF82D2A37F99A00D44A74 /* Swift_quizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_quizUITests.swift; sourceTree = "<group>"; };
 		CE0DF82F2A37F99A00D44A74 /* Swift_quizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_quizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEF60A502A3850FE00922B01 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CE0DF8152A37F99A00D44A74 /* Assets.xcassets */,
 				CE0DF8172A37F99A00D44A74 /* LaunchScreen.storyboard */,
 				CE0DF81A2A37F99A00D44A74 /* Info.plist */,
+				CEF60A502A3850FE00922B01 /* Question.swift */,
 			);
 			path = Swift_quiz;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE0DF8112A37F99900D44A74 /* ViewController.swift in Sources */,
+				CEF60A512A3850FE00922B01 /* Question.swift in Sources */,
 				CE0DF80D2A37F99900D44A74 /* AppDelegate.swift in Sources */,
 				CE0DF80F2A37F99900D44A74 /* SceneDelegate.swift in Sources */,
 			);
