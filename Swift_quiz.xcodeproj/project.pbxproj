@@ -17,6 +17,7 @@
 		CE0DF8302A37F99A00D44A74 /* Swift_quizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DF82F2A37F99A00D44A74 /* Swift_quizUITestsLaunchTests.swift */; };
 		CEE50ED22A3A01F6001537EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0DF8122A37F99900D44A74 /* Main.storyboard */; };
 		CEE50ED42A3B032A001537EF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CEE50ED32A3B032A001537EF /* README.md */; };
+		CEE50EE92A3BD622001537EF /* demoimg.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE50EE82A3BD622001537EF /* demoimg.png */; };
 		CEF60A512A3850FE00922B01 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF60A502A3850FE00922B01 /* Question.swift */; };
 		CEF60A562A389C1E00922B01 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF60A552A389C1E00922B01 /* QuizBrain.swift */; };
 		CEF60A5A2A39832400922B01 /* scoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF60A592A39832400922B01 /* scoreViewController.swift */; };
@@ -56,9 +57,7 @@
 		CE0DF82D2A37F99A00D44A74 /* Swift_quizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_quizUITests.swift; sourceTree = "<group>"; };
 		CE0DF82F2A37F99A00D44A74 /* Swift_quizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_quizUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CEE50ED32A3B032A001537EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CEE50EE12A3B0B2B001537EF /* 003.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003.PNG; sourceTree = "<group>"; };
-		CEE50EE22A3B0B2B001537EF /* 001.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.PNG; sourceTree = "<group>"; };
-		CEE50EE32A3B0B2B001537EF /* 002.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 002.PNG; sourceTree = "<group>"; };
+		CEE50EE82A3BD622001537EF /* demoimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = demoimg.png; path = ../../../../Downloads/demoimg.png; sourceTree = "<group>"; };
 		CEF60A502A3850FE00922B01 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		CEF60A552A389C1E00922B01 /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
 		CEF60A592A39832400922B01 /* scoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = scoreViewController.swift; path = Swift_quiz/Controller/scoreViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -94,10 +93,8 @@
 		CE0DF8002A37F99900D44A74 = {
 			isa = PBXGroup;
 			children = (
-				CEE50EE22A3B0B2B001537EF /* 001.PNG */,
-				CEE50EE32A3B0B2B001537EF /* 002.PNG */,
-				CEE50EE12A3B0B2B001537EF /* 003.PNG */,
 				CEE50ED32A3B032A001537EF /* README.md */,
+				CEE50EE82A3BD622001537EF /* demoimg.png */,
 				CE0DF80B2A37F99900D44A74 /* Swift_quiz */,
 				CE0DF8222A37F99A00D44A74 /* Swift_quizTests */,
 				CE0DF82C2A37F99A00D44A74 /* Swift_quizUITests */,
@@ -281,6 +278,7 @@
 			files = (
 				CEE50ED22A3A01F6001537EF /* Main.storyboard in Resources */,
 				CE0DF8192A37F99A00D44A74 /* LaunchScreen.storyboard in Resources */,
+				CEE50EE92A3BD622001537EF /* demoimg.png in Resources */,
 				CEE50ED42A3B032A001537EF /* README.md in Resources */,
 				CE0DF8162A37F99A00D44A74 /* Assets.xcassets in Resources */,
 			);

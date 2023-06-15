@@ -1,27 +1,20 @@
 # Swift Quiz App.
 
-Swiftに関する⚪︎×クイズアプリです。全５問全問正解できるかな？？
+Swiftに関する⚪︎×クイズアプリ（ios）です。全５問、全問正解できるかな？？
 最後におまけつき。
 
 # DEMO
-![image](https://github.com/aya-no/Swift_quiz/blob/main/001.PNG)
-![image](https://github.com/aya-no/Swift_quiz/blob/main/002.PNG)
-![image](https://github.com/aya-no/Swift_quiz/blob/main/003.PNG)
-
-
-# Features
-
+![image](https://github.com/aya-no/Swift_quiz/blob/main/demoimg.PNG)
 
 
 # Requirement
 
 * Xcode
-* RealityKit
 * iPhone / ipad ios13以上
 
 # Usage
 
-MacにiPhome/ipadをUSB接続し、Recntにて接続した端末を選択、Buildしてください。
+Xcodeを起動、iPhome/ipadをUSB接続し、Recntにて接続した端末を選択、Buildしてください。
 
 # Note
 
