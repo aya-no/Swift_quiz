@@ -4,7 +4,7 @@ Swiftに関する⚪︎×クイズアプリ（ios）です。全５問、全問�
 最後におまけつき。
 
 # DEMO
-![image](https://github.com/aya-no/Swift_quiz/blob/main/demoimg.PNG)
+![image](https://github.com/aya-no/Swift_quiz/blob/main/demoimg.png)
 
 
 # Requirement
