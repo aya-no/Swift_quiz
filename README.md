@@ -10,7 +10,7 @@ Swiftに関する⚪︎×クイズアプリ（ios）です。全５問、全問�
 # Requirement
 
 * Xcode
-* iPhone / ipad ios13以上
+* iPhone / ipad ios16以上 対応機種：https://www.apple.com/jp/augmented-reality/#footnote-2
 
 # Usage
 
