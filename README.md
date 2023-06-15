@@ -4,7 +4,7 @@ Swiftに関する⚪︎×クイズアプリです。全５問全問正解でき�
 最後におまけつき。
 
 # DEMO
-
+![image](https://github.com/aya-no/solomvp/blob/main/readmeimg/002.png)
 
 
 # Features
@@ -19,7 +19,7 @@ Swiftに関する⚪︎×クイズアプリです。全５問全問正解でき�
 
 # Usage
 
-MacにiPhome/ipadをUSB接続し、Recntにて接続した端末を選択し、Buildしてください。
+MacにiPhome/ipadをUSB接続し、Recntにて接続した端末を選択、Buildしてください。
 
 # Note
 
