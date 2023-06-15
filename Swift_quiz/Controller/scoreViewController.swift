@@ -15,7 +15,12 @@ class scoreViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        scoreLabel.text = "\(score)問正解！"
+        if score == 5 {
+            scoreLabel.text = "全問正解"
+        } else {
+            scoreLabel.text = "\(score)問正解"
+        }
+        
         // Do any additional setup after loading the view.
     }
     

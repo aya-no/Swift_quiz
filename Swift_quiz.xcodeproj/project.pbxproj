@@ -111,8 +111,6 @@
 			children = (
 				CE0DF80C2A37F99900D44A74 /* AppDelegate.swift */,
 				CE0DF80E2A37F99900D44A74 /* SceneDelegate.swift */,
-				CEF60A992A39E6CF00922B01 /* ArViewController.swift */,
-				CEF60A5B2A39ACFB00922B01 /* Experience.rcproject */,
 				CEF60A522A389B7900922B01 /* Model */,
 				CEF60A532A389B9900922B01 /* View */,
 				CEF60A542A389BB100922B01 /* Controller */,
@@ -143,6 +141,7 @@
 		CEF60A522A389B7900922B01 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CEF60A5B2A39ACFB00922B01 /* Experience.rcproject */,
 				CEF60A502A3850FE00922B01 /* Question.swift */,
 				CEF60A552A389C1E00922B01 /* QuizBrain.swift */,
 			);
@@ -160,6 +159,7 @@
 		CEF60A542A389BB100922B01 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CEF60A992A39E6CF00922B01 /* ArViewController.swift */,
 				CEF60A592A39832400922B01 /* scoreViewController.swift */,
 				CE0DF8102A37F99900D44A74 /* ViewController.swift */,
 			);

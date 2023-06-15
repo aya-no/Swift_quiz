@@ -18,13 +18,11 @@ class ViewController: UIViewController {
     
     var quizBrain = QuizBrain()
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view
+        progressBar.transform = CGAffineTransform(scaleX: 1.0, y: 5.0)
         updataUI()
-
     }
 
     @IBAction func answerButtonPressed(_ sender: UIButton) {
@@ -49,7 +47,7 @@ class ViewController: UIViewController {
         }
         print(quizBrain.score)
         
-
+        progressBar.progress = quizBrain.getProgress()
         Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updataUI), userInfo: nil, repeats: false)
 
     }
@@ -62,7 +60,6 @@ class ViewController: UIViewController {
     
     @objc func updataUI() {
         questionLabel.text = quizBrain.getQuestionText()
-        progressBar.progress = quizBrain.getProgress()
         scoreLabel.text = "スコア：\(quizBrain.getScore())"
         
         answerImage.image = UIImage()
