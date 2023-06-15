@@ -4,7 +4,9 @@ Swiftに関する⚪︎×クイズアプリです。全５問全問正解でき�
 最後におまけつき。
 
 # DEMO
-![image](https://github.com/aya-no/solomvp/blob/main/readmeimg/002.png)
+![image](https://github.com/aya-no/Swift_quiz/blob/main/001.PNG)
+![image](https://github.com/aya-no/Swift_quiz/blob/main/002.PNG)
+![image](https://github.com/aya-no/Swift_quiz/blob/main/003.PNG)
 
 
 # Features
