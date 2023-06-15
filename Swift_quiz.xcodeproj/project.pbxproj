@@ -10,15 +10,17 @@
 		CE0DF80D2A37F99900D44A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DF80C2A37F99900D44A74 /* AppDelegate.swift */; };
 		CE0DF80F2A37F99900D44A74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DF80E2A37F99900D44A74 /* SceneDelegate.swift */; };
 		CE0DF8112A37F99900D44A74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DF8102A37F99900D44A74 /* ViewController.swift */; };
-		CE0DF8142A37F99900D44A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0DF8122A37F99900D44A74 /* Main.storyboard */; };
 		CE0DF8162A37F99A00D44A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0DF8152A37F99A00D44A74 /* Assets.xcassets */; };
 		CE0DF8192A37F99A00D44A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0DF8172A37F99A00D44A74 /* LaunchScreen.storyboard */; };
 		CE0DF8242A37F99A00D44A74 /* Swift_quizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DF8232A37F99A00D44A74 /* Swift_quizTests.swift */; };
 		CE0DF82E2A37F99A00D44A74 /* Swift_quizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DF82D2A37F99A00D44A74 /* Swift_quizUITests.swift */; };
 		CE0DF8302A37F99A00D44A74 /* Swift_quizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DF82F2A37F99A00D44A74 /* Swift_quizUITestsLaunchTests.swift */; };
+		CEE50ED22A3A01F6001537EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0DF8122A37F99900D44A74 /* Main.storyboard */; };
 		CEF60A512A3850FE00922B01 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF60A502A3850FE00922B01 /* Question.swift */; };
 		CEF60A562A389C1E00922B01 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF60A552A389C1E00922B01 /* QuizBrain.swift */; };
 		CEF60A5A2A39832400922B01 /* scoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF60A592A39832400922B01 /* scoreViewController.swift */; };
+		CEF60A9A2A39E6CF00922B01 /* ArViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF60A992A39E6CF00922B01 /* ArViewController.swift */; };
+		CEF60A9E2A39F3C300922B01 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = CEF60A5B2A39ACFB00922B01 /* Experience.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		CEF60A502A3850FE00922B01 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		CEF60A552A389C1E00922B01 /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
 		CEF60A592A39832400922B01 /* scoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = scoreViewController.swift; path = Swift_quiz/Controller/scoreViewController.swift; sourceTree = SOURCE_ROOT; };
+		CEF60A5B2A39ACFB00922B01 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		CEF60A992A39E6CF00922B01 /* ArViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 			children = (
 				CE0DF80C2A37F99900D44A74 /* AppDelegate.swift */,
 				CE0DF80E2A37F99900D44A74 /* SceneDelegate.swift */,
+				CEF60A992A39E6CF00922B01 /* ArViewController.swift */,
+				CEF60A5B2A39ACFB00922B01 /* Experience.rcproject */,
 				CEF60A522A389B7900922B01 /* Model */,
 				CEF60A532A389B9900922B01 /* View */,
 				CEF60A542A389BB100922B01 /* Controller */,
@@ -264,9 +270,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE50ED22A3A01F6001537EF /* Main.storyboard in Resources */,
 				CE0DF8192A37F99A00D44A74 /* LaunchScreen.storyboard in Resources */,
 				CE0DF8162A37F99A00D44A74 /* Assets.xcassets in Resources */,
-				CE0DF8142A37F99900D44A74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +300,10 @@
 				CEF60A562A389C1E00922B01 /* QuizBrain.swift in Sources */,
 				CEF60A5A2A39832400922B01 /* scoreViewController.swift in Sources */,
 				CE0DF8112A37F99900D44A74 /* ViewController.swift in Sources */,
+				CEF60A9A2A39E6CF00922B01 /* ArViewController.swift in Sources */,
 				CEF60A512A3850FE00922B01 /* Question.swift in Sources */,
 				CE0DF80D2A37F99900D44A74 /* AppDelegate.swift in Sources */,
+				CEF60A9E2A39F3C300922B01 /* Experience.rcproject in Sources */,
 				CE0DF80F2A37F99900D44A74 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +484,7 @@
 				DEVELOPMENT_TEAM = 52XW92A8PZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Swift_quiz/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -486,7 +495,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ayano.Swift-quiz";
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "ayano.Swift-quizzzzzzz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -504,6 +514,7 @@
 				DEVELOPMENT_TEAM = 52XW92A8PZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Swift_quiz/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -514,7 +525,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ayano.Swift-quiz";
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "ayano.Swift-quizzzzzzz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
